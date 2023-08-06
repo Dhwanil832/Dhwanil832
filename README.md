@@ -13,8 +13,8 @@ I am Dhwanil Chauhan, a passionate full stack web developer from India. I am cur
  
 - I’m currently working on Achieving My Milestone:)
 - I’m currently learning everything there is about **Machine Learning**  
-- Do reach me, [email](mailto:dhwanil832@gmail.com) :)
-- 💬 Ask me about anything, I am always happy to help :)
+- Do reach out to me, [email](mailto:dhwanil832@gmail.com) :)
+- Ask me about anything, I am always happy to help :)
 
 ## Github Stats
 
