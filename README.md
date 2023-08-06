@@ -6,7 +6,7 @@
 
 ## About
 
-I am Dhwanil Chauhan, a passionate full stack web developer from India. I am currently pursuing a Bachelor’s degree in Computer Science as a result of my quest for advanced learnings in technology, specifically related to data science, statistics, computing methodologies, artificialintelligence and advanced machine learning tools.
+I am Dhwanil Chauhan, a machine learning enthusiast from India. I am currently pursuing a Bachelor’s degree in Computer Science as a result of my quest for advanced learnings in technology, specifically related to data science, statistics, computing methodologies, artificialintelligence and advanced machine learning tools.
 
 
  <img align="right" alt="GIF" src="./images/code.gif" width="300" height="210" />
