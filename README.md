@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Hello,+Nice+To+Meet+You;I'm+Dhwanil+Chauhan,+A+CSE+Student;A+Machine+Learning+Enthusiast;Love+To+Connect+The+Dots;And+A+Problem+Solver">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=+Hello,+Nice+To+Meet+You;I'm+Dhwanil+Chauhan,+A+CSE+Student;A+Machine+Learning+Enthusiast;+Love+To+Connect+The+Dots;And+A+Problem+Solver">
 </p>
 
 <hr>
