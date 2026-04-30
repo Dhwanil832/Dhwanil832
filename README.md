@@ -63,13 +63,13 @@ I take a full-stack research approach: problem formulation → model design → 
 
 ## Academic Service
 
-Peer Reviewer — **Neural Computing and Applications** (Springer Nature) · **IJCDS** · 2024–Present
+Peer Reviewer : **Neural Computing and Applications** (Springer Nature) · **IJCDS** · 2024–Present
 
 ---
 
 ## Education
 
-**M.S. Computer Science** — Purdue University Northwest · GPA 3.84 · 2024–2026
+**M.S. Computer Science** : Purdue University Northwest · GPA 3.84 · 2024–2026
 
 ---
 
