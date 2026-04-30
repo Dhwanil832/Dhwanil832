@@ -21,7 +21,7 @@
 
 ## About
 
-I build AI systems that **perceive, reason, and act** in real-world environments — not demo-quality prototypes, but systems that hold up under deployment pressure.
+I build AI systems that **perceive, reason, and act** in real-world environments, not demo-quality prototypes, but systems that hold up under deployment pressure.
 
 My research sits at the intersection of multimodal AI, computer vision, and NLP. Currently a Graduate Research Assistant at Purdue's **Center for Innovation through Visualization and Simulation (CIVS)**, where my work spans novel-view acoustic synthesis, VLM robustness evaluation, multi-agent NLP pipelines, and industrial AI safety.
 
@@ -38,13 +38,13 @@ I take a full-stack research approach: problem formulation → model design → 
 | Joint Image–Text Corruption Benchmark Across 20 VLMs | **IEEE TPAMI** *(under review)* | VLM Robustness |
 | Multi-Agent On-Premise LLM for Steel Plant Incident Reporting | **ACL** *(under review)* | Multi-Agent NLP |
 
-> **CVPR 2026** — Designed the geometry-grounded cross-attention mechanism that allows the model to spatially condition audio synthesis on inferred scene geometry without ground-truth depth.
+> **CVPR 2026** : Designed the geometry-grounded cross-attention mechanism that allows the model to spatially condition audio synthesis on inferred scene geometry without ground-truth depth.
 >
-> **AIStech 2026** — Deployed at CIVS in collaboration with **Cleveland-Cliffs**; real-time hazard detection pipeline built on YOLOv8.
+> **AIStech 2026** : Deployed at CIVS in collaboration with **Cleveland-Cliffs**; real-time hazard detection pipeline built on YOLOv8.
 >
-> **TPAMI** — Benchmarks 20 VLMs under simultaneous image and text corruption; largest joint robustness study of its kind.
+> **TPAMI** : Benchmarks 20 VLMs under simultaneous image and text corruption; largest joint robustness study of its kind.
 >
-> **ACL** — 5-agent local LLM pipeline for structured incident reporting in a live steel manufacturing environment; no cloud, no PII exposure.
+> **ACL** : 5-agent local LLM pipeline for structured incident reporting in a live steel manufacturing environment; no cloud, no PII exposure.
 
 ---
 
