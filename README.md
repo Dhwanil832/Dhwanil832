@@ -1,22 +1,78 @@
+<h1 align="center">Dhwanil Chauhan</h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=+Hello,+Nice+To+Meet+You;I'm+Dhwanil+Chauhan,+A+CSE+Student;A+Machine+Learning+Enthusiast;+Love+To+Connect+The+Dots;And+A+Problem+Solver">
+  <b>AI Researcher · GRA @ CIVS, Purdue University Northwest</b><br/>
+  Multimodal AI · Vision-Language Models · Audio-Visual Learning · Industrial AI Safety
 </p>
 
-<hr>
+<p align="center">
+  <a href="https://www.linkedin.com/in/dhwanil-chauhan/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://scholar.google.com/citations?user=rGG7kXMAAAAJ&hl=en">
+    <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" />
+  </a>
+  <a href="mailto:dhwanil832@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+---
 
 ## About
 
-I am Dhwanil Chauhan, a machine learning enthusiast from India. I am currently pursuing a Masters’s degree in Computer Science as a result of my quest for advanced learnings in technology, specifically related to data science, statistics, computing methodologies, artificialintelligence and advanced machine learning tools.
+I build AI systems that **perceive, reason, and act** in real-world environments — not demo-quality prototypes, but systems that hold up under deployment pressure.
 
+My research sits at the intersection of multimodal AI, computer vision, and NLP. Currently a Graduate Research Assistant at Purdue's **Center for Innovation through Visualization and Simulation (CIVS)**, where my work spans novel-view acoustic synthesis, VLM robustness evaluation, multi-agent NLP pipelines, and industrial AI safety.
 
- <img align="right" alt="GIF" src="./images/code.gif" width="300" height="210" />
- 
-- I’m currently working on Achieving My Milestone:)
-- I’m currently learning everything there is about **Machine Learning**  
-- Do reach out to me, [email](mailto:dhwanil832@gmail.com) :)
-- Ask me about anything, I am always happy to help :)
+I take a full-stack research approach: problem formulation → model design → multi-GPU training → evaluation → deployment. I care about systems that change how decisions actually get made.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=dhwanil832&show_icons=true&locale=en&layout=compact" alt="dhwanil832" /></p>
+## Research
+
+| Paper | Venue | Area |
+|---|---|---|
+| Novel-View Acoustic Synthesis via Feed-Forward Visual Geometry | **CVPR Workshop 2026** | Audio-Visual · 3D Geometry |
+| Dynamic Safety Zone Monitoring Using Industrial AI | **AIStech 2026** | Industrial AI Safety |
+| Joint Image–Text Corruption Benchmark Across 20 VLMs | **IEEE TPAMI** *(under review)* | VLM Robustness |
+| Multi-Agent On-Premise LLM for Steel Plant Incident Reporting | **ACL** *(under review)* | Multi-Agent NLP |
+
+> **CVPR 2026** — Designed the geometry-grounded cross-attention mechanism that allows the model to spatially condition audio synthesis on inferred scene geometry without ground-truth depth.
+>
+> **AIStech 2026** — Deployed at CIVS in collaboration with **Cleveland-Cliffs**; real-time hazard detection pipeline built on YOLOv8.
+>
+> **TPAMI** — Benchmarks 20 VLMs under simultaneous image and text corruption; largest joint robustness study of its kind.
+>
+> **ACL** — 5-agent local LLM pipeline for structured incident reporting in a live steel manufacturing environment; no cloud, no PII exposure.
+
+---
+
+## Technical Stack
+
+**Research & Modeling**
+`PyTorch` · `Hugging Face Transformers` · `LangChain` · `LangGraph` · `OpenCV` · `VGGT`
+
+**Languages**
+`Python` · `SQL` · `JavaScript` · `LaTeX`
+
+**Infrastructure**
+`Multi-GPU Training` · `Docker` · `REST APIs` · `Git`
+
+---
+
+## Academic Service
+
+Peer Reviewer — **Neural Computing and Applications** (Springer Nature) · **IJCDS** · 2024–Present
+
+---
+
+## Education
+
+**M.S. Computer Science** — Purdue University Northwest · GPA 3.84 · 2024–2026
+
+---
+
+<p align="center">
+  <i>Open to PhD opportunities in multimodal AI, audio-visual learning, and robust AI systems.</i>
+</p>
