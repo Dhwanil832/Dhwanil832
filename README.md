@@ -1,4 +1,4 @@
-**<h1 align="center">Dhwanil Chauhan</h1>
+<h1 align="center">Dhwanil Chauhan</h1>
 
 <p align="center">
   <b>AI Researcher · GRA @ CIVS, Purdue University Northwest</b><br/>
