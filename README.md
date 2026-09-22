@@ -1,8 +1,8 @@
 <h1 align="center">Dhwanil Chauhan</h1>
 
 <p align="center">
-  <b>AI Researcher · GRA @ CIVS, Purdue University Northwest</b><br/>
-  Multimodal AI · Vision-Language Models · Audio-Visual Learning · Industrial AI Safety
+  <b>Graduate Researcher @ CIVS, Purdue University Northwest</b><br/>
+  Agentic AI · Multimodal Reasoning · Embodied AI · Robustness & Evaluation
 </p>
 
 <p align="center">
@@ -12,8 +12,11 @@
   <a href="https://scholar.google.com/citations?user=rGG7kXMAAAAJ&hl=en">
     <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" />
   </a>
-  <a href="mailto:dhwanil832@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" />
+  <a href="https://dhwanil832.github.io/">
+    <img src="https://img.shields.io/badge/Website-Research%20Portfolio-black?style=flat" />
+  </a>
+  <a href="mailto:chauha56@purdue.edu">
+    <img src="https://img.shields.io/badge/Email-Purdue-EA4335?style=flat&logo=gmail&logoColor=white" />
   </a>
 </p>
 
@@ -21,59 +24,112 @@
 
 ## About
 
-I build AI systems that **perceive, reason, and act** in real-world environments, not demo-quality prototypes, but systems that hold up under deployment pressure.
+I work on AI systems that need to build useful understanding from complex, incomplete, and sometimes unreliable information in order to decide what to do next.
 
-My research sits at the intersection of multimodal AI, computer vision, and NLP. Currently a Graduate Research Assistant at Purdue's **Center for Innovation through Visualization and Simulation (CIVS)**, where my work spans novel-view acoustic synthesis, VLM robustness evaluation, multi-agent NLP pipelines, and industrial AI safety.
+I am currently a Graduate Research Assistant at Purdue University's **Center for Innovation through Visualization and Simulation (CIVS)**. My research spans multimodal reasoning, agentic AI, computer vision, audio-visual learning, and robustness evaluation.
 
-I take a full-stack research approach: problem formulation → model design → multi-GPU training → evaluation → deployment. I care about systems that change how decisions actually get made.
+Across these projects, I am increasingly interested in a broader question:
+
+> **How does an agent know enough about its world to know what to do next?**
+
+My work approaches this through problems involving environment understanding, multimodal evidence, information gaps, uncertainty, active information seeking, and decision-making.
 
 ---
 
-## Research
+## Current Research
 
-| Paper | Venue | Area |
-|---|---|---|
-| Novel-View Acoustic Synthesis via Feed-Forward Visual Geometry | **CVPR Workshop 2026** | Audio-Visual · 3D Geometry |
-| Dynamic Safety Zone Monitoring Using Industrial AI | **AIStech 2026** | Industrial AI Safety |
-| Joint Image–Text Corruption Benchmark Across 20 VLMs | **IEEE TPAMI** *(under review)* | VLM Robustness |
-| Multi-Agent On-Premise LLM for Steel Plant Incident Reporting | **ACL** *(under review)* | Multi-Agent NLP |
+### TandemBench
+**Joint-Corruption Benchmark & Analysis of Cross-Modal Retrieval**
 
-> **CVPR 2026** : Designed the geometry-grounded cross-attention mechanism that allows the model to spatially condition audio synthesis on inferred scene geometry without ground-truth depth.
->
-> **AIStech 2026** : Deployed at CIVS in collaboration with **Cleveland-Cliffs**; real-time hazard detection pipeline built on YOLOv8.
->
-> **TPAMI** : Benchmarks 20 VLMs under simultaneous image and text corruption; largest joint robustness study of its kind.
->
-> **ACL** : 5-agent local LLM pipeline for structured incident reporting in a live steel manufacturing environment; no cloud, no PII exposure.
+Studying how cross-modal retrieval systems behave when both image and text inputs are degraded simultaneously, and whether joint degradation can be inferred from single-modality effects.
+
+- 19 dual-encoder retrieval models
+- 16 image corruptions
+- 12 text perturbations
+- 5 severity levels
+- MS-COCO and Flickr30K
+- Image-to-text and text-to-image retrieval
+
+Across 47,360 primary matched conditions, joint degradation exceeded the larger single-modality loss in **95.15%** of cases, with a mean excess of **5.07 Recall@1 points**.
+
+---
+
+### Progressive Evidence-Driven Industrial Root Cause Analysis
+
+Investigating whether an AI-assisted system can understand an industrial incident, identify consequential information gaps, seek useful evidence, maintain competing causal explanations, and revise those explanations as new evidence becomes available.
+
+The current research focuses on:
+
+- progressive evidence release
+- targeted information seeking
+- competing causal explanations
+- factual and causal support
+- uncertainty and unresolved evidence
+- justified revision across investigation stages
+
+---
+
+## Selected Research
+
+### Visual Geometry Grounded Novel-View Acoustic Synthesis
+**CVPR 2026 MMFM5 Workshop**
+
+Novel-view acoustic synthesis using feed-forward visual geometry grounding without requiring explicit per-scene 3D reconstruction.
+
+**Contribution:** Designed the VGGT output representation and formulated the query/key structure of the Geometry-Grounded Acoustic Decoder cross-attention mechanism.
+
+---
+
+### Dynamic Safety Zone Monitoring
+**AISTech 2026**
+
+Multi-camera perception and spatial reasoning for dynamically redefining industrial safety zones as equipment positions change in active environments.
+
+**Contribution:** Developed the spatial reasoning engine combining four camera perspectives to update safety boundaries from detected blocker positions.
+
+---
+
+### AI-Assisted Accident Investigation
+**AISTech 2025**
+
+Conversational AI for structured industrial incident investigation using context-aware dialogue, information capture, and targeted clarification.
+
+**Contribution:** Designed and implemented the conversational AI backend, including context retention, dialogue-state management, and dynamic action sequencing.
 
 ---
 
 ## Technical Stack
 
-**Research & Modeling**
-`PyTorch` · `Hugging Face Transformers` · `LangChain` · `LangGraph` · `OpenCV` · `VGGT`
+**Machine Learning & Research**  
+`PyTorch` · `Hugging Face Transformers` · `OpenCV` · `LangChain` · `LangGraph` · `VGGT` · `ChromaDB`
 
-**Languages**
-`Python` · `SQL` · `JavaScript` · `LaTeX`
+**Systems & Development**  
+`FastAPI` · `Flask` · `Docker` · `Git` · `Linux` · `REST APIs`
 
-**Infrastructure**
-`Multi-GPU Training` · `Docker` · `REST APIs` · `Git`
+**Languages**  
+`Python` · `C++` · `SQL` · `JavaScript` · `LaTeX`
 
 ---
 
 ## Academic Service
 
-Peer Reviewer : **Neural Computing and Applications** (Springer Nature) · **IJCDS** · 2024–Present
+Peer Reviewer:
+
+- **Neural Computing and Applications**
+- **International Journal of Computing and Digital Systems**
 
 ---
 
 ## Education
 
-**M.S. Computer Science** : Purdue University Northwest · GPA 3.84 · 2024–2026
+**M.S. Computer Science**  
+Purdue University Northwest · GPA: **3.84/4.00** · 2024-2026
+
+**B.Tech. Computer Science and Engineering**  
+CHARUSAT / DEPSTAR · CGPA: **9.37/10.00** · 2020-2024
 
 ---
 
 <p align="center">
-  <i>Open to PhD opportunities in multimodal AI, audio-visual learning, and robust AI systems.</i>
+  <i>Interested in PhD opportunities for Fall 2027 in agentic AI, multimodal reasoning, embodied AI, and related areas.</i>
 </p>
-
