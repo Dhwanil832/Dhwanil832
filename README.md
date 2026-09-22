@@ -1,4 +1,4 @@
-<h1 align="center">Dhwanil Chauhan</h1>
+**<h1 align="center">Dhwanil Chauhan</h1>
 
 <p align="center">
   <b>AI Researcher · GRA @ CIVS, Purdue University Northwest</b><br/>
@@ -76,3 +76,4 @@ Peer Reviewer : **Neural Computing and Applications** (Springer Nature) · **IJC
 <p align="center">
   <i>Open to PhD opportunities in multimodal AI, audio-visual learning, and robust AI systems.</i>
 </p>
+**
